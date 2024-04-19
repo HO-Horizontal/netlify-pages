@@ -1,0 +1,20 @@
+baseURL: http://ho-horizontal.netlify.app
+languageCode: cs-cz
+defaultContentLanguage: cs
+defaultContentLang: cs
+title: HO Horizontal
+theme: Blogpaper
+menu:
+  main:
+  - name: Kdo jsme
+    url: /about
+    weight: 10
+  - name: Historie oddílu
+    url: /history
+    weight: 20
+  - name: Přijetí nových členů
+    url: /new_members
+    weight: 30
+  - name: Osnova horoškoly
+    url: /syllabus
+    weight: 40

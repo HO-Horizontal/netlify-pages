@@ -1,0 +1,12 @@
+:root {
+    --header--main-padding-bottom: 2rem;
+    --summary__banner-max-height: none;
+}
+
+.header--main .banner img {
+    object-position: 100% 20%;
+}
+
+.header__subtitle {
+    font-size: 3rem;
+}
