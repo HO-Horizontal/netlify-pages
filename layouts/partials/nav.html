@@ -1,0 +1,31 @@
+<nav class="nav">
+  <div class="nav__content container metadata">
+    <div class="nav__home">
+      <a href="{{ .Site.Home.RelPermalink }}" >
+        {{- with .Site.Params.navHome -}}
+          {{- . -}}
+        {{- else -}}
+          {{- .Site.Title -}}
+        {{- end -}}
+      </a>
+    </div>
+
+    {{- with .Site.Menus.main }}
+    <ul class="inline-list">
+      {{- range . }}
+        <li class="inline-list__item">
+          {{- .Pre -}}
+          <a href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
+          {{- .Post -}}
+        </li>
+      {{- end }}
+        <li class="inline-list__item">
+          <a href="https://www.facebook.com/groups/horizontalbrno">
+            {{- $fbLogo := (resources.Get "facebook_logo_primary.png").RelPermalink -}}
+            <img src="{{- $fbLogo -}}" style="height: 2rem; width: 2rem;">
+          </a>
+        </li>
+    </ul>
+    {{- end }}
+  </div>
+</nav>

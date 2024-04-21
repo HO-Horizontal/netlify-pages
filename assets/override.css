@@ -1,9 +1,9 @@
-:root {
-    --header--main-padding-bottom: 2rem;
+/* :root {
     --summary__banner-max-height: none;
-}
+} */
 
 .header--main .banner img {
+    position: unset !important; /* Overrides banner-figure.html */
     object-position: 100% 20%;
 }
 

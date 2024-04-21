@@ -1,8 +1,10 @@
 ---
 title: Triebental 12.-14.1.2024
+date: 2024-01-14
 subtitle: ""
 banner:
   src: 4.png
+  shift: -120px;
 ---
 
 Předpověď slibuje na víkend azuro, tak se s Jardou domlouváme na skialpech; shodneme se na zajímavých cílech v údolí Triebental v Seckauer Alpen (nejvýchodnější část Nízkých Taur). V pátek večer tedy (bez ženských a dětí) vyrážíme do Rajchu. Oblíbená chata Bergerhube na konci údolí i o něco níže položená Triebentalhuette jsou plné, a tak kotvíme v Draxlerhausu za sedlem.
