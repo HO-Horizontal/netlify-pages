@@ -7,6 +7,22 @@
     object-position: 100% 20%;
 }
 
+
 .header__subtitle {
     font-size: 3rem;
+}
+
+.under_construction {
+    background-color: #dd9933;
+    width: 100%;
+    margin-bottom: var(--header--main-margin-bottom);
+}
+
+.under_construction div {
+    max-width: var(--content-max-width);
+    margin: auto;
+}
+
+.header--main {
+    margin-bottom: 0;
 }
